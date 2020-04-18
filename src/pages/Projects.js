@@ -1,18 +1,22 @@
 import React from "react"
 import HeroSection from "../components/Resuable/HeroSection"
 import Layout from "../components/layout"
-import Infoblock from "../components/Resuable/Inflblock"
+// import Infoblock from "../components/Resuable/Inflblock"
+// import TeamPhotoSec from "../components/About/Teamphotosec"
+import Projectssection from "../components/projects/Projectssection"
 
-export default function services({ data }) {
+export default function Projects({ data }) {
   return (
     <Layout>
       <HeroSection
         img={data.img.childImageSharp.fluid}
-        title="About service section"
+        title="About Project section"
         subtitle=""
         heroclass="about-background"
       />
-      <Infoblock heading="This about the service section" />
+      {/* <Infoblock heading="This about the Project section" /> */}
+      {/* <TeamPhotoSec /> */}
+      <Projectssection/>
     </Layout>
   )
 }

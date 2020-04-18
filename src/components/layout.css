@@ -30,3 +30,11 @@
 .btn-warning{
   padding: 8px 35px;
 }
+
+.text-white h1{
+font-size: 1.5rem;
+}
+/* 
+.card-body{
+  height: 10px;
+} */

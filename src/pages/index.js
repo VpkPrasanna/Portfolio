@@ -3,9 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/Resuable/HeroSection"
-import Infoblock from "../components/Resuable/Inflblock"
-import Dualinfoblock from "../components/Resuable/DuaInfoBlock"
-import Coursecart from "../components/cart/Coursecart"
+// import Dualinfoblock from "../components/Resuable/DuaInfoBlock"
 
 const IndexPage = ({data }) => (
   <Layout>
@@ -15,9 +13,9 @@ const IndexPage = ({data }) => (
       title = "I Write Code"
       subtitle = "NLP Engineer"
     heroclass ="hero-background"/>
-    <Infoblock heading = "About Us"/>
-    <Coursecart courses = {data.mycourses} />
-    <Dualinfoblock heading="Our Team" />
+    {/* <Infoblock heading = "About Us"/> */}
+    {/* <Coursecart courses = {data.mycourses} /> */}
+    {/* <Dualinfoblock heading="Our Team" /> */}
   </Layout>
 )
 

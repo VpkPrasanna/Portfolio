@@ -9,14 +9,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import "./bootstrap.min.css"
 import "./layout.css"
-import Footer from "./Resuable/Footer"
+// import Footer from "./Resuable/Footer"
 import Navbar from "./Resuable/Navbar"
 
 const Layout  = ({children}) =>( 
   <>
   <Navbar />
   {children}
-  <Footer />
+  {/* <Footer /> */}
   </>
 )
 Layout.propTypes = {
