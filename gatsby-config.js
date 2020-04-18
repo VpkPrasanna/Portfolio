@@ -3,9 +3,9 @@ require('dotenv').config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Learn Codeonline Youtube Project `,
+    title: `Prasanna's Portfolio`,
     description: `I Love to write code`,
-    author: `@gatsbyjs`,
+    author: `@Prasanna`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,21 +30,22 @@ module.exports = {
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
-    {
-			resolve: 'gatsby-plugin-snipcart',
-			options: {
-        apiKey: process.env.SNIPCART_KEY,
-        autopop:true
-			}
-		}
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
+    //     // Learn about environment variables: https://gatsby.dev/env-vars
+    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    //   },
+    // }
+    // ,
+    // {
+		// 	resolve: 'gatsby-plugin-snipcart',
+		// 	options: {
+    //     apiKey: process.env.SNIPCART_KEY,
+    //     autopop:true
+		// 	}
+		// }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
