@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from 'gatsby'
 import HeroSection from "../components/Resuable/HeroSection"
 import Layout from "../components/layout"
 // import Infoblock from "../components/Resuable/Inflblock"

@@ -1,6 +1,6 @@
-require('dotenv').config({
-  path:`.env.${process.env.NODE_ENV}`
-})
+// require('dotenv').config({
+//   path:`.env.${process.env.NODE_ENV}`
+// })
 module.exports = {
   siteMetadata: {
     title: `Prasanna's Portfolio`,
@@ -37,8 +37,7 @@ module.exports = {
     //     // Learn about environment variables: https://gatsby.dev/env-vars
     //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
     //   },
-    // }
-    // ,
+    // },
     // {
 		// 	resolve: 'gatsby-plugin-snipcart',
 		// 	options: {
