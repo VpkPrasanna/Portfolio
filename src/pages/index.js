@@ -29,22 +29,22 @@ export const query = graphql`
       }
     }
   }
-  mycourses: allContentfulCourses {
-    edges {
-      node {
-        id
-        title
-        description
-        price
-        category
-        image {
-          fixed(width:200,height:120) {
-            ...GatsbyContentfulFixed_tracedSVG
-          }
-        }
-      }
-    }
-  }
+  // mycourses: allContentfulCourses {
+  //   edges {
+  //     node {
+  //       id
+  //       title
+  //       description
+  //       price
+  //       category
+  //       image {
+  //         fixed(width:200,height:120) {
+  //           ...GatsbyContentfulFixed_tracedSVG
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }`
 
 export default IndexPage
